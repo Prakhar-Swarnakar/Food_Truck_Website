@@ -1,0 +1,115 @@
+[
+  {
+    "Date" : "2019-01-01",
+    "MenuId" : "thanksgiving",
+    "Menu" :
+    [
+      { 
+        "Category": "Meal Box",
+        "Content": [
+          {
+            "id": 1,
+            "name": "Naan",
+            "price": 2.99,
+            "description": "Soft and fluffy Indian bread, typically served with curry.",
+            "imgUrl": "/imgs/computer.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Shahi Paneer",
+            "price": 9.99,
+            "description": "A rich and creamy North Indian curry made with paneer (cottage cheese) and a flavorful tomato-based gravy.",
+            "imgUrl": "/imgs/computer.jpg"
+          }]
+      },
+      { 
+        "Category": "Desserts",
+        "Content": [
+          {
+            "id": 3,
+            "name": "Gulab Jamun",
+            "price": 4.99,
+            "description": "A popular Indian sweet made from khoya (reduced milk) balls, deep-fried and soaked in sugar syrup.",
+            "imgUrl": "/imgs/computer.jpg"
+          }]
+      },
+      { 
+        "Category": "Appetizers",
+        "Content": [
+          {
+            "id": 4,
+            "name": "Samosa",
+            "price": 3.99,
+            "description": "A crispy and savory pastry filled with spiced potatoes, peas, and sometimes meat, typically deep-fried.",
+            "imgUrl": "/imgs/computer.jpg"
+          }]
+      },
+      { 
+        "Category": "Beverages",
+        "Content": [{
+            "id": 5,
+            "name": "Lassi",
+            "price": 2.99,
+            "description": "A popular yogurt-based drink, often flavored with fruit and spices.",
+            "imgUrl": "/imgs/computer.jpg"
+        }]
+      }
+    ]
+  },
+  {"Date" : "2019-01-02",
+    "MenuId" : "christmas",
+    "Menu" :
+    [
+      { 
+        "Category": "Meal Box",
+        "Content": [
+          {
+            "id": 1,
+            "name": "Tandoori Roti",
+            "price": 2.99,
+            "description": "Soft and fluffy Indian bread, typically served with curry.",
+            "imgUrl": "/imgs/computer.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Kadai Paneer",
+            "price": 9.99,
+            "description": "A rich and creamy North Indian curry made with paneer (cottage cheese) and a flavorful tomato-based gravy.",
+            "imgUrl": "/imgs/computer.jpg"
+          }]
+      },
+      { 
+        "Category": "Desserts",
+        "Content": [
+          {
+            "id": 3,
+            "name": "Cham Cham",
+            "price": 4.99,
+            "description": "A popular Indian sweet made from khoya (reduced milk) balls, deep-fried and soaked in sugar syrup.",
+            "imgUrl": "/imgs/computer.jpg"
+          }]
+      },
+      { 
+        "Category": "Appetizers",
+        "Content": [
+          {
+            "id": 4,
+            "name": "Tikki",
+            "price": 3.99,
+            "description": "A crispy and savory pastry filled with spiced potatoes, peas, and sometimes meat, typically deep-fried.",
+            "imgUrl": "/imgs/computer.jpg"
+          }]
+      },
+      { 
+        "Category": "Beverages",
+        "Content": [{
+            "id": 5,
+            "name": "Amma Panna",
+            "price": 2.99,
+            "description": "A popular yogurt-based drink, often flavored with fruit and spices.",
+            "imgUrl": "/imgs/computer.jpg"
+        }]
+      }
+    ]
+  }
+]
