@@ -11,7 +11,7 @@ const PhotoGallery = () => {
         <Stack direction="vertical" gap={2}>
         <div style={{ backgroundColor: 'lightgray', height: '200px' }}>Cell 1</div>
         <div style={{ backgroundColor: 'lightgray', height: '150px' }}>Cell 2</div>
-        <div style={{ backgroundColor: 'lightgray', height: '250px' }}>Cell 3</div>
+        <div style={{ backgroundColor: 'lightgray', height: '250px' }}>Cell 3 new</div>
         </Stack>
         <Stack direction="vertical" gap={2}>
         <div style={{ backgroundColor: 'lightgray', height: '150px' }}>Cell 4</div>
