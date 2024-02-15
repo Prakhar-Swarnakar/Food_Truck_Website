@@ -5,31 +5,27 @@ import { Link } from 'react-router-dom';
 import MenuTab from '../Components/MenuTabs';
 import PhotoGallery from '../Components/HomePage/PhotoGallery';
 import { Container } from 'react-bootstrap';
+import { url } from 'inspector';
+import Images from '../Data/Images';
+
 
 export function Home() {
   return (
   <div>
     <section id="header" style={{ border: '1px solid #000' }}>
-      <div className="home-container">
-        <div className="hero-image">
-          <img 
-                src = {"/Imgs/car.jpg"}
-                alt = "Rasoi - The Indian Kitchen"
-                height = "175px"
-                width = "175px" 
-                style = {{objectFit : "cover"}}/>  
-              {/* <img src={imageSrc} alt="Rasoi - The Indian Kitchen" /> */}
-        <div className="overlay">
-          <div className="text">
-            <h1>Rasoi - The Indian Kitchen</h1>
-            <p>Authenticate indian food</p>
-            <Link to="/order">
-                <button>Order Now</button>
-              </Link>
+    <div
+            style={{
+              backgroundImage: `url(${Images.banana})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: "cover"
+            }}
+          >
+                <div className="text">
+                  <h1>Rasoi - The Indian Kitchen</h1>
+                  <p>Authenticate indian food</p>
+                  <button>Order Now</button>
+                </div>
           </div>
-        </div>
-      </div>
-      </div>
     </section>
     <hr/>
     <section id = "menuTab" style={{ border: '1px solid #000' }}>
@@ -57,8 +53,10 @@ export function Home() {
       <h2>Find Us</h2>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
     <div style={{ flex: '0 0 50%' }} >
-      {/* Replace with your map component */}
-      <p >Map will go here</p>
+        <img 
+                src = {Images.Location}
+                alt = "Rasoi - The Indian Kitchen"
+                height = "375px"/>  
     </div>
     <div style={{ flex: '0 0 50%' }}>
       <p>

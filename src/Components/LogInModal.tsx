@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Modal, Nav, Tab, Form, Button, Tabs } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Modal, Nav, Tab, Form, Button, Tabs } from "react-bootstrap";
 
 interface LoginModalProps {
   show: boolean;
@@ -7,21 +7,21 @@ interface LoginModalProps {
 }
 
 const LoginModal: React.FC<LoginModalProps> = ({ show, onHide }) => {
-  const [key, setKey] = useState('login');
-  const [loginEmail, setLoginEmail] = useState('');
-  const [loginPassword, setLoginPassword] = useState('');
-  const [signupEmail, setSignupEmail] = useState('');
-  const [signupPassword, setSignupPassword] = useState('');
+  const [key, setKey] = useState("login");
+  const [loginEmail, setLoginEmail] = useState("");
+  const [loginPassword, setLoginPassword] = useState("");
+  const [signupEmail, setSignupEmail] = useState("");
+  const [signupPassword, setSignupPassword] = useState("");
 
   const handleLogin = () => {
     // Add your login logic here
-    console.log('Login button clicked');
+    console.log("Login button clicked");
     onHide(); // Close the modal after login
   };
 
   const handleSignup = () => {
     // Add your signup logic here
-    console.log('Signup button clicked');
+    console.log("Signup button clicked");
     onHide(); // Close the modal after signup
   };
 
@@ -30,8 +30,8 @@ const LoginModal: React.FC<LoginModalProps> = ({ show, onHide }) => {
       <Modal.Header closeButton>
         <Modal.Title>Login / Sign Up</Modal.Title>
       </Modal.Header>
-      <Modal.Body >
-        <Tab.Container activeKey={key} onSelect={(k) => setKey(k || 'login')} >
+      <Modal.Body>
+        <Tab.Container activeKey={key} onSelect={(k) => setKey(k || "login")}>
           <Nav variant="tabs">
             <Nav.Item>
               <Nav.Link eventKey="login">Login</Nav.Link>
@@ -40,7 +40,7 @@ const LoginModal: React.FC<LoginModalProps> = ({ show, onHide }) => {
               <Nav.Link eventKey="signup">Sign Up</Nav.Link>
             </Nav.Item>
           </Nav>
-          <hr/>
+          <hr />
           <Tab.Content>
             <Tab.Pane eventKey="login">
               <Form>

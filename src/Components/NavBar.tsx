@@ -24,12 +24,12 @@ export function Navbar() {
             <Nav>
                 <Stack direction="horizontal" gap={1}>
                 {/* <div className="left"> */}
-                    <Nav.Link to="/" as={NavLink}>Home</Nav.Link>
+                    <Nav.Link to="/" as={NavLink}>Raosi</Nav.Link>
                 {/* </div> */}
                 <Stack direction="horizontal" gap={7}>
                 {/* <div className="right"> */}
                     <Nav.Link to="/order" as={NavLink}>Order</Nav.Link>
-                    <Link to="/#find-us">Find Us</Link>
+                    <a href='#find-us'>Find Us</a>
                     <Nav.Link onClick={handleLoginClick}>Log In</Nav.Link>
                     <Nav.Link to="/myPortal" as={NavLink}>My Portal</Nav.Link>
                 {/* </div> */}
